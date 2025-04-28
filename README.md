@@ -5,6 +5,8 @@ This project demonstrates a **local application** using a **large language model
 ## Model Used: llama3.2:3b
 A small, instruction-following language model ideal for rephrasing, summarizing, and other short tasks. It is fast, lightweight, and works well for local apps without requiring a GPU. In this project it specially uses to rephrase blunt sentences into polite one.
 
+Notice: Ollama, the platform providing the model, is licensed separately. See [Ollama's official website](https://ollama.com/library/llama3.2) for details.
+
 ![llama](https://github.com/user-attachments/assets/66f8f12e-3b9b-4931-87b9-2c3cd440633a)
 
 

@@ -5,6 +5,9 @@ This project demonstrates a **local application** using a **large language model
 ## Model Used: llama3.2:3b
 A small, instruction-following language model ideal for rephrasing, summarizing, and other short tasks. It is fast, lightweight, and works well for local apps without requiring a GPU. In this project it specially uses to rephrase blunt sentences into polite one.
 
+![llama](https://github.com/user-attachments/assets/66f8f12e-3b9b-4931-87b9-2c3cd440633a)
+
+
 ## Code Function Explane
 The application is written in Python using Tkinter for the GUI and subprocess to connect with the local LLM through Ollama. The make_polite() function handles prompt formatting, calls the LLM, and filters the output. It ensures only the useful polite response is returned.
 
@@ -17,4 +20,8 @@ To prevent hallucination and keep responses focused, I experimented with adding 
 
 ## Results
 Below is a sample of the running application.
+
+![result1](https://github.com/user-attachments/assets/777bd09c-3910-4d0d-abc9-23e45ca3028a)
+![result2](https://github.com/user-attachments/assets/f0ea52ff-0b09-47fb-9525-4f5179dd6035)
+
 
